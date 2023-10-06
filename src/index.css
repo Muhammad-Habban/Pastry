@@ -1,0 +1,175 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #1a1a1a;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+tr:hover {
+  background: none;
+}
+
+td:hover {
+  background: none;
+}
+
+.tr:hover {
+  background: none;
+}
+
+.td:hover {
+  background: none;
+}
+
+/* Style the table header */
+th {
+  background-color: #35b5ff;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style alternating table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: transparent !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #35b5ff;
+}
+
+button {
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #35b5ff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px 0px 10px 12px;
+}
+  button:hover {
+  border-color: #646cff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.purple-bg{
+  background-color: transparent;
+  color: #35b5ff;
+  border-bottom: 1px solid #35b5ff;
+  font-weight: 800px;
+  font-size: 18px;
+}
+
+.grey-bg{
+  background-color: transparent;
+  font-weight: 600px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.redBg
+{
+  background-color: rgb(221, 128, 128);
+  padding: 4px 7px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+.greenBg
+{
+  background-color: rgb(121, 240, 121) !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(49, 49, 49);
+
+}
+
+.specialClass
+{
+  border-radius: 4px;
+}
+
+.disabledClass
+{
+  background-color: rgb(190, 190, 190);
+  border-radius: 4px;
+}
+
+.yellowBg{
+  background-color: rgb(255, 255, 123) !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(49, 49, 49);
+}
+
+tr:hover td{
+  background: transparent !important;
+}
+
+.greenBg:hover td{
+  background: transparent !important;
+}
+
+.normalClass
+{
+  font-size: 16px;
+  font-weight: 600;
+}
