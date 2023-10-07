@@ -19,20 +19,8 @@ table {
   margin-bottom: 20px;
 }
 
-tr:hover {
-  background: none;
-}
-
-td:hover {
-  background: none;
-}
-
-.tr:hover {
-  background: none;
-}
-
-.td:hover {
-  background: none;
+tr {
+  pointer-events: none;
 }
 
 /* Style the table header */
@@ -55,9 +43,6 @@ td {
 }
 
 /* Hover effect on table rows */
-tr:hover {
-  background-color: transparent !important;
-}
 
 a {
   font-weight: 500;
@@ -158,14 +143,6 @@ button {
   font-size: 16px;
   font-weight: 600;
   color: rgb(49, 49, 49);
-}
-
-tr:hover td{
-  background: transparent !important;
-}
-
-.greenBg:hover td{
-  background: transparent !important;
 }
 
 .normalClass
