@@ -19,9 +19,6 @@ table {
   margin-bottom: 20px;
 }
 
-tr {
-  pointer-events: none;
-}
 
 /* Style the table header */
 th {
@@ -126,6 +123,10 @@ button {
   color: rgb(49, 49, 49);
 
 }
+.greenBg:hover
+{
+  background-color: rgb(121, 240, 121) !important;
+}
 
 .specialClass
 {
@@ -143,6 +144,9 @@ button {
   font-size: 16px;
   font-weight: 600;
   color: rgb(49, 49, 49);
+}
+.yellowBg:hover{
+  background-color: rgb(255, 255, 123) !important;
 }
 
 .normalClass

@@ -5,6 +5,7 @@ import { ClipLoader } from "react-spinners";
 function App() {
   const [data, setData] = useState(null);
   const [numberOfDays, setNumberOfDays] = useState(0);
+  const [apiCallKey, setApiCallKey] = useState(0);
   const bgCol = "purple-bg";
   const norCol = "grey-bg";
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
       )
       .then((response) => {
         setData(response.data.data.message);
+        setApiCallKey(apiCallKey + 1);
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
@@ -86,6 +88,7 @@ function App() {
 
       {data ? (
         <SalesOrderTable
+          key={apiCallKey}
           salesOrders={data.sales_orders}
           numDays={numberOfDays}
         />
