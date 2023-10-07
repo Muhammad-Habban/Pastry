@@ -85,7 +85,10 @@ function App() {
       </div>
 
       {data ? (
-        <SalesOrderTable salesOrders={data.sales_orders} />
+        <SalesOrderTable
+          salesOrders={data.sales_orders}
+          numDays={numberOfDays}
+        />
       ) : (
         <ClipLoader color="#36d7b7" />
       )}
